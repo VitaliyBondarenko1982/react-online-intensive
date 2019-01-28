@@ -1,3 +1,4 @@
+//Core
 import React, { Component } from 'react';
 
 // Components
@@ -11,13 +12,11 @@ import Styles from './styles.m.css';
 export default class Feed extends Component {
     render() {
         return (
-            <>
-                <section className = { Styles.feed }>
-                    < StatusBar />
-                    < Composer />
-                    < Post />
-                </section>
-            </>
+            <section className = { Styles.feed }>
+                <StatusBar />
+                <Composer />
+                <Post />
+            </section>
         );
     }
 }
