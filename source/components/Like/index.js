@@ -57,6 +57,7 @@ export default class Like extends Component {
 
     _getLikeStyles = () => {
         const likedByMe = this._getLikedByMe(); 
+    
         return cx(Styles.icon, {
             [Styles.liked]: likedByMe,
         });
